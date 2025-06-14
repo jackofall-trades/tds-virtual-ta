@@ -71,6 +71,7 @@ class VirtualTA:
             }
         
         except Exception as e:
+            print("OpenAI error:", e)
             return {
                 "answer": "I'm sorry, I couldn't generate an answer. Please try again.",
                 "links": []
