@@ -36,5 +36,27 @@
         "topic_id": 3
       }
     ]
+  },
+  {
+    "id": 4,
+    "title": "Data Manipulation with Pandas",
+    "posts": [
+      {
+        "topic_title": "Data Manipulation with Pandas",
+        "content": "Pandas is a powerful library for data manipulation and analysis. It provides data structures like DataFrames and Series that make it easy to work with structured data. Key operations include filtering, grouping, merging, and aggregating data.",
+        "topic_id": 4
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Token Cost Calculation",
+    "posts": [
+      {
+        "topic_title": "Token Cost Calculation",
+        "content": "To calculate token costs for text, you need to understand how language models tokenize text. Different languages have different tokenization patterns. For Japanese text, characters are typically tokenized differently than English text.",
+        "topic_id": 5
+      }
+    ]
   }
 ]
