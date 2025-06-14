@@ -4,9 +4,11 @@ import json
 import os
 import re
 from dotenv import load_dotenv
+from flask_cors import CORS
 
 load_dotenv()
 app = Flask(__name__)
+CORS(app) # Enable CORS for all routes (or specify origins/routes if needed)
 
 class VirtualTA:
     def __init__(self):
