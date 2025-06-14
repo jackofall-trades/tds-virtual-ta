@@ -90,7 +90,7 @@ def answer():
 
 @app.route('/')
 def health_check():
-    return jsonify({"status": "OK"})
+    return "<h1>TDS Virtual TA is Running!</h1><p>Access the API at /api/</p>"
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5001))
