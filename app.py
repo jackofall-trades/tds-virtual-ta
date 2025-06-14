@@ -1,8 +1,8 @@
 from flask import Flask, request, jsonify
 from openai import OpenAI
-import tiktoken
 import json
 import os
+import re
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -29,8 +29,10 @@ class VirtualTA:
         return relevant[:5]
     
     def calculate_token_cost(self, text):
-        enc = tiktoken.encoding_for_model("gpt-3.5-turbo-0125")
-        return (len(enc.encode(text)) / 1_000_000) * 0.50  # $0.50 per million tokens
+        # Simple token estimation: ~4 characters per token for most languages
+        # This is a rough approximation but works for cost estimation
+        estimated_tokens = len(text) / 4
+        return (estimated_tokens / 1_000_000) * 0.50  # $0.50 per million tokens
     
     def generate_answer(self, question, image=None):
         # Handle specific token cost question

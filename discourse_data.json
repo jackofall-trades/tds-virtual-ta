@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Data Science Tools",
+    "posts": [
+      {
+        "topic_title": "Introduction to Data Science Tools",
+        "content": "Welcome to the Tools in Data Science course! This course covers essential tools and technologies used in data science including Python, Jupyter notebooks, pandas, numpy, and more. We'll start with basic concepts and gradually move to advanced topics.",
+        "topic_id": 1
+      },
+      {
+        "topic_title": "Introduction to Data Science Tools",
+        "content": "Make sure you have Python 3.8+ installed on your system. You can download it from python.org or use Anaconda distribution which comes with many useful packages pre-installed.",
+        "topic_id": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Python Basics for Data Science",
+    "posts": [
+      {
+        "topic_title": "Python Basics for Data Science",
+        "content": "Python is the most popular programming language for data science. Key concepts include variables, data types, control structures, functions, and object-oriented programming. We'll focus on practical examples relevant to data analysis.",
+        "topic_id": 2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Working with Jupyter Notebooks",
+    "posts": [
+      {
+        "topic_title": "Working with Jupyter Notebooks",
+        "content": "Jupyter Notebooks provide an interactive environment for data analysis. You can combine code, text, and visualizations in a single document. This makes it perfect for exploratory data analysis and sharing results.",
+        "topic_id": 3
+      }
+    ]
+  }
+]
